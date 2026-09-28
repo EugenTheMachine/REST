@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rest-spheroid-tracker"
+version = "0.1.0"
+description = "Resource-efficient spheroid tracker for brightfield microscopy image sequences"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+authors = [
+  { name = "REST Project Team" }
+]
+license = { text = "MIT" }
+keywords = [
+  "biomedical-imaging",
+  "microscopy",
+  "spheroids",
+  "tracking",
+  "segmentation",
+  "yolo",
+  "cryobiology"
+]
+
+dependencies = [
+  "ultralytics==8.4.126",
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scikit-image",
+  "opencv-python",
+  "tiffile",
+  "jupyter"
+]
+
+[tool.setuptools]
+packages = []
