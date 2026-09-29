@@ -4,10 +4,8 @@
 
 <div align="center">
 
-![Deep Learning](https://img.shields.io/badge/Deep-Learning-FF6F61)
-![YOLO](https://img.shields.io/badge/-YOLO26-111F68?logo=yolo)
-![Microscopy](https://img.shields.io/badge/Domain-Brightfield%20Microscopy-7C4DFF)
 [![Microscopy](https://img.shields.io/badge/POWERED%20BY-CRYOVISION-111F68)](https://github.com/EugenTheMachine/cryo-vision)
+[![YOLO](https://img.shields.io/badge/USES-YOLO26-111F68?logo=yolo)]()
 
 </div>
 
@@ -70,7 +68,7 @@ We thoroughly evaluate the model using a complete set of different quality metri
 
 As we can see, the model shows State-of-the-Art performance by all three aspects: segmentation quality, tracking quality, and resource efficiency. The table below shows the concrete values of each metric for both tested backbones, with **YOLO26x** being the clear leader.
 
-| | P | R | F1 | AP@50 | AP@50-95 | TRA | PRU | PTpR |
+| | P | R | F1 | AP@50 | AP@50-95 | TRA | PRU | PTpF |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | YOLO11x | 91.1 | 88.8 | 89.9 | 90.7 | 87.1 | 87.9 | 1.42 | **4.18** |
 | **YOLO26x** | **95.7** | **93.2** | **94.4** | **96.1** | **91.5** | **92.3** | **1.37** | 4.7 |
@@ -114,4 +112,6 @@ For data labelling code, please refer to the repository below.
 
 The model was developed by [Ye. Ponomarov](https://orcid.org/0009-0006-5540-4282) and [S. Lytvynenko](https://orcid.org/0009-0007-6464-3231) under the supervision of [M. Tatariants](https://orcid.org/0000-0002-5952-9801) as part of the [CryoVision](https://github.com/EugenTheMachine/cryo-vision) project.
 
-Please, feel free to contact us via the e-mail: Yevhen.Ponomarov@cs.khpi.edu.ua.
+Should you have any questions, please, feel free to contact us via the e-mail: Yevhen.Ponomarov@cs.khpi.edu.ua.
+
+*Note that we are not releasing the model weights publicly at the moment, so, please, contact us in case you would like to use it for your research.*
