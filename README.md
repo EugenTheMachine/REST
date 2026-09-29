@@ -23,7 +23,7 @@ A lightweight deep-learning framework for automatic cell spheroid detection, seg
 
 ## 🧭 Overview
 
-This repository presents the **REST** (Resource-Efficient Spheroid Tracker) model - a computer-vision system for analyzing cell spheroid dynamics in time-lapse microscopy. The problem is scientifically important because spheroids are widely used in cryobiology and biomedical research to study dehydration, osmotic response, and the effect of cryoprotectants on cell viability and morphology.
+This repository presents the **REST** (Resource-Efficient Spheroid Tracker) model - a computer-vision system for analyzing cell spheroid dynamics in time-lapse microscopy. The problem is scientifically important because spheroids are widely used in cryobiology and biomedical research to study dehydration, osmotic response, and the effect of cryoprotectants on cell viability and morphology. They are also actively utilized in **Personalized Medicine** - an actively developing area of research.
 
 In practice, however, manual interpretation of microscopy sequences is slow, subjective, and difficult to scale. Our model addresses this challenge by combining:
 
