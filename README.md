@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Microscopy](https://img.shields.io/badge/POWERED%20BY-CRYOVISION-111F68)](https://github.com/EugenTheMachine/cryo-vision)
-[![YOLO](https://img.shields.io/badge/USES-YOLO26-111F68?logo=yolo)]()
+[![YOLO](https://img.shields.io/badge/USES-YOLO26-111F68?logo=yolo)](#)
 
 </div>
 
