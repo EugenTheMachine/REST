@@ -81,20 +81,33 @@ Below is a real demonstration of the tracker's inference. On the left the frame 
 
 ---
 
+## ⚙️ Installation and usage
+
+The project requires Python 3.11. From the repository root, create and activate a virtual environment, then install the project and its pinned dependencies:
+
+```powershell
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e .
+```
+
+On macOS or Linux, use `python3.11 -m venv .venv` and `source .venv/bin/activate` for the first two commands; the pip commands are the same.
+
 ## ⚙️ Experimental setup
 
 For training and evaluation, the project used:
 
-- Python 3.10 / 3.11 environments
+- Python 3.11 environment
 - deep learning and computer vision packages from the Ultralytics ecosystem
 - Kaggle cloud infrastructure with a P100 16GB GPU for training and checkpointing
 - local evaluation on an entry-level laptop device to measure resource consumption (hardware setup includes AMD Ryzen 5 CPU, 8 GB RAM, SSD).
 
-The full environment configuration is available at `pyproject.toml`.
+The pinned environment configuration is available at [`pyproject.toml`](pyproject.toml).
 
 Model configurations are available in `yolo11x-seg.yaml` and `yolo26x-seg.yaml`. Please, use these files for proper setup of your model's training.
 
-The resulting **REST** model is implemented step by step in `Tracker.ipynb`.
+The resulting **REST** pipeline is implemented in [`tracker.py`](tracker.py) and demonstrated in `Tracker.ipynb`.
 
 ---
 
